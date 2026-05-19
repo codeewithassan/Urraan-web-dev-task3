@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitepace</title>
+    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="shortcut icon" href="./assests/Logo Icon.svg" type="image/x-icon">
+</head>
+
+<body class="relative scroll-smooth">
+    <!-- Navbar -->
+    <header class="bg-[#043873] sticky top-0 z-50">
+        <nav class="max-w-7xl mx-auto flex justify-between items-center px-8 py-4">
+            <!-- Logo -->
+            <a href="#"><img src="./assests/Logo.svg" alt="Logo"></a>
+
+            <!-- Desktop Menu (Mobile per hidden) -->
+            <div class="flex items-center gap-8">
+                <ul class="hidden xl:flex text-white gap-6">
+                    <select class="outline-none cursor-pointer px-1" name="Products" id="">
+                        <option selected disabled hidden value="Products">Product</option>
+                        <option class="text-black text-sm" value="">Manage</option>
+                        <option class="text-black text-sm" value="">Work</option>
+                        <option class="text-black text-sm" value="">Extension</option>
+                    </select>
+                    <select class="outline-none cursor-pointer px-1" name="Solutions" id="">
+                        <option selected disabled hidden value="Solutions">Solutions</option>
+                        <option class="text-black text-sm" value="">Needs</option>
+                        <option class="text-black text-sm" value="">Taskey</option>
+                        <option class="text-black text-sm" value="">Terms</option>
+                    </select>
+                    <select class="outline-none cursor-pointer px-1" name="Resources" id="">
+                        <option selected disabled hidden value="Resources">Resources</option>
+                        <option class="text-black text-sm" value="">Data</option>
+                        <option class="text-black text-sm" value="">Sponsers</option>
+                        <option class="text-black text-sm" value="">Apps</option>
+                    </select>
+                    <select class="outline-none cursor-pointer px-1" name="Pricing" id="">
+                        <option selected disabled hidden value="Pricing">Pricing</option>
+                        <option class="text-black text-sm" value="">Plans</option>
+                        <option class="text-black text-sm" value="">Clients</option>
+                        <option class="text-black text-sm" value="">Whitepace</option>
+                    </select>
+                </ul>
+                <div class="hidden md:flex gap-4">
+                    <button class="cursor-pointer hover:hover:scale-105 px-6 py-2 bg-[#FFE492] rounded-lg text-black">Login</button>
+                    <button class="cursor-pointer hover:hover:scale-105 px-6 py-2 bg-[#4F9CF9] rounded-lg text-white">Try Whitepace free</button>
+                </div>
+                <!-- Mobile Menu Icon (Desktop par hidden) -->
+                <div class="xl:hidden ">
+                    <ion-icon class="text-4xl text-white" name="menu-outline"></ion-icon>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ________________________ SECTION 1 (Header)_______________________________-->
+    <section
+        class="bg-[#043873] py-16 md:py-24 px-8 bg-[url('/assests/Blue-bg.svg')] bg-cover md:bg-[length:110%_80%] bg-no-repeat md:bg-[100%_100%]">
+        <!-- flex-col (mobile) and flex-row (desktop) -->
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
+
+            <!-- Text Content -->
+            <div class="w-full md:w-1/2 text-white text-center md:text-left">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight tracking-tight overflow-hidden">Get More
+                    Done with
+                    whitepace</h1>
+                <p class="text-lg mb-8 opacity-80 tracking-tight">Project management software that enables your teams to
+                    collaborate, plan, analyze and manage everyday tasks</p>
+                <button class="cursor-pointer transition-all duration-300 hover:hover:scale-105 px-10 py-4 bg-[#4F9CF9] rounded-lg font-medium inline-flex items-center gap-2">
+                    Try Whitepace free <span><img src="./assests/arrow.svg" alt=""></span>
+                </button>
+            </div>
+            <!-- header Image/Box -->
+            <div class="w-full md:w-1/2 h-[300px] md:h-[450px] bg-[#C4DEFD] rounded-sm"></div>
+        </div>
+    </section>
+
+    <!-- ________________________ SECTION 2 _______________________________-->
+    <section id="Management" class="bg-[#ffff] py-32 md:py-24 px-8 gap-24 flex flex-col">
+        <!-- section 2 (a) -->
+        <div class="sec2-a bg-[url('/assests/BACKGROUND.svg')] bg-no-repeat">
+            <div class="max-w-7xl mx-auto flex flex-col md:flex-row md:justify-center items-center gap-10">
+                <!-- section 2 content -->
+                <div class="w-full md:w-1/2 text-center md:text-left">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight tracking-tight overflow-hidden">Project
+                        <span class="yellow-stroke">Management</span>
+                    </h1>
+                    <p class="text-lg mb-8 opacity-80 tracking-tight">Images, videos, PDFs and audio files are
+                        supported. Create math expressions and diagrams directly from the app. Take photos with the
+                        mobile app and save them to a note.</p>
+                    <button
+                        class="cursor-pointer transition-all duration-300 hover:hover:scale-105 text-white px-10 py-4 bg-[#4F9CF9] rounded-lg font-medium inline-flex items-center gap-2">Get
+                        Started <span><img src="./assests/arrow.svg" alt=""></span></button>
+                </div>
+                <!-- section 2 Box/Img -->
+                <div class="w-full md:w-1/2 h-[300px] md:h-[450px] bg-[#C4DEFD] rounded-sm"></div>
+            </div>
+        </div>
+        <div class="sec2-b">
+            <div class="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
+                <!-- section 2 svg -->
+                <div class="w-full max-w-lg md:w-1/2 mx-auto p-4">
+                    <svg class="w-full h-auto max-h-[500px]" viewBox="0 0 528 492" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="271.808" cy="245.78" r="244.875" stroke="#A7CEFC" stroke-width="1.81132"
+                            stroke-dasharray="13.58 13.58" />
+                        <circle cx="271.809" cy="245.781" r="142.993" stroke="#A7CEFC" stroke-width="1.81132"
+                            stroke-dasharray="13.58 13.58" />
+                        <circle cx="26.0282" cy="246.152" r="26.0282" fill="#FF5758" />
+                        <circle cx="415.708" cy="246.152" r="26.0282" fill="#37A3FF" />
+                        <circle cx="272.18" cy="389.679" r="26.0282" fill="#FFBF60" />
+                        <circle cx="127.91" cy="246.152" r="26.0282" fill="#37A3FF" />
+                        <circle cx="127.91" cy="448.428" r="26.0282" fill="#37A3FF" />
+                        <circle cx="445.454" cy="78.828" r="26.0282" fill="#37A3FF" />
+                        <circle cx="501.972" cy="324.237" r="26.0282" fill="#00CA75" />
+                        <mask id="mask0_70_7891" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="475" y="298"
+                            width="53" height="53">
+                            <circle cx="501.972" cy="324.237" r="26.0282" fill="#C4C4C4" />
+                        </mask>
+                        <g mask="url(#mask0_70_7891)">
+                        </g>
+                        <circle cx="272.925" cy="101.882" r="26.0282" fill="#00CA75" />
+                        <mask id="mask1_70_7891" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="246" y="75"
+                            width="53" height="53">
+                            <circle cx="272.925" cy="101.882" r="26.0282" fill="#C4C4C4" />
+                        </mask>
+                        <g mask="url(#mask1_70_7891)">
+                        </g>
+                        <circle cx="130.142" cy="43.1322" r="26.0282" fill="#FFDC4D" />
+                        <g filter="url(#filter0_d_70_7891)">
+                            <rect x="234.566" y="208.854" width="74.3662" height="74.3662" rx="9.05661" fill="white" />
+                        </g>
+                        <g clip-path="url(#clip0_70_7891)">
+                            <path
+                                d="M248.151 230.828V239.264C248.151 241.833 251.402 243.203 253.389 241.405L262.871 232.969C264.949 231.128 263.594 227.874 260.749 227.874H251.267C249.551 227.874 248.151 229.201 248.151 230.828Z"
+                                fill="#5986EF" />
+                            <path
+                                d="M293.036 227.874H283.553C280.753 227.874 279.354 231.128 281.431 232.969L290.913 241.405C292.9 243.161 296.151 241.833 296.151 239.264V230.828C296.151 229.201 294.752 227.874 293.036 227.874Z"
+                                fill="#5986EF" />
+                            <path
+                                d="M274.296 248.471L290.913 263.287C292.9 265.042 296.151 263.715 296.151 261.146V252.624C296.151 251.811 295.79 251.04 295.158 250.483L274.296 231.856C273.077 230.786 271.225 230.786 270.006 231.856L249.145 250.483C248.512 251.04 248.151 251.811 248.151 252.624V261.146C248.151 263.715 251.402 265.085 253.389 263.287L270.006 248.471C271.225 247.4 273.077 247.4 274.296 248.471Z"
+                                fill="#5986EF" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_d_70_7891" x="199.245" y="177.156" width="145.008" height="145.008"
+                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                <feMorphology radius="9.96227" operator="erode" in="SourceAlpha"
+                                    result="effect1_dropShadow_70_7891" />
+                                <feOffset dy="3.62264" />
+                                <feGaussianBlur stdDeviation="22.6415" />
+                                <feComposite in2="hardAlpha" operator="out" />
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_70_7891" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_70_7891"
+                                    result="shape" />
+                            </filter>
+                            <clipPath id="clip0_70_7891">
+                                <rect width="48" height="36.2264" fill="white" transform="translate(248.151 227.874)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+                <!-- section 2 content -->
+                <div class="w-full md:w-1/2 text-center md:text-left">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight tracking-tight overflow-hidden">Work
+                        <span class="yellow-stroke">together</span>
+                    </h1>
+                    <p class="text-lg mb-8 opacity-80 tracking-tight">With whitepace, share your notes with your
+                        colleagues and collaborate on them You can also publish a note to the internet and share the URL
+                        with others.</p>
+                    <button
+                        class="cursor-pointer transition-all duration-300 hover:hover:scale-105 text-white px-10 py-4 bg-[#4F9CF9] rounded-lg font-medium inline-flex items-center gap-2">Try
+                        it
+                        now<span><img src="./assests/arrow.svg" alt=""></span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- __________________________SECTION 3___________________________ -->
+    <section id="Work" class="bg-[#043873] py-16 md:py-24 px-8">
+        <!-- flex-col (mobile) and flex-row (desktop) -->
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
+
+            <!-- Text Content -->
+            <div class="w-full md:w-1/2 text-white text-center md:text-left">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight tracking-tight overflow-hidden">Use as
+                    <span class="yellow-stroke">Extension</span>
+                </h1>
+                <p class="text-lg mb-8 opacity-80 tracking-tight">Use the web clipper extension, available on Chrome and
+                    Firefox, to save web pages or take screenshots as notes.</p>
+                <button
+                    class="text-white cursor-pointer scale-105 transition-all duration-300 px-10 py-4 mt-6 md:mt-16 bg-[#4F9CF9] rounded-lg font-medium inline-flex items-center gap-2">
+                    Let’s Go <span><img src="./assests/arrow.svg" alt=""></span>
+                </button>
+            </div>
+            <!-- header Image/Box -->
+            <div class="w-full md:w-1/2 h-[300px] md:h-[450px] bg-[#C4DEFD] rounded-sm"></div>
+        </div>
+    </section>
+    <!-- __________________________SECTION 4___________________________ -->
+    <section id="Customise" class="bg-[#ffff] py-20 md:py-36 px-8 mb-10">
+        <!-- flex-col (mobile) and flex-row (desktop) -->
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
+            <!-- ection 4 Image/Box -->
+            <div class="w-full md:w-1/2 h-[300px] md:h-[450px] bg-[#C4DEFD] rounded-sm"></div>
+            <!-- Text Content -->
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h1 class="text-3xl md:text-6xl font-bold mb-6 leading-tight tracking-tight overflow-hidden">Customise
+                    it to
+                    <span class="yellow-stroke">your needs</span>
+                </h1>
+                <p class="text-lg mb-8 opacity-80 tracking-tight">Customise the app with plugins, custom themes and
+                    multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the
+                    Extension API.</p>
+                <button
+                    class="transition-all duration-300 cursor-pointer scale-105 text-white px-10 py-4 mt-6 md:mt-16 bg-[#4F9CF9] rounded-lg font-medium inline-flex items-center gap-2">
+                    Let’s Go <span><img src="./assests/arrow.svg" alt=""></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- __________________________SECTION 5___________________________ -->
+    <section id="Your-Plan" class="bg-[#ffff] py-16 md:py-24 px-8">
+    <div class="max-w-7xl mx-auto flex flex-col items-center gap-7 md:gap-14">
+
+        <div class="w-full md:w-1/2 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight tracking-tight overflow-hidden">Choose
+                <span class="yellow-stroke">Your Plan</span>
+            </h1>
+            <p class="text-lg mb-8 opacity-80 tracking-tight">Use the web clipper extension, available on Chrome and
+                Firefox, to save web pages or take screenshots as notes.</p>
+        </div>
+        
+        <div class="max-w-6xl w-full mx-auto rounded-sm flex gap-8 overflow-x-auto md:overflow-visible md:flex-wrap lg:flex-nowrap justify-between snap-x snap-mandatory py-4 scrollbar-none">
+            
+            <div class="card-1 py-10 px-11 bg-[#FFFFFF] text-[#212529] rounded-xl flex flex-col justify-between gap-6 border border-[#FFE492] w-[85vw] max-w-[350px] shrink-0 md:shrink md:w-[calc(50%-1rem)] lg:w-[350px] snap-center">
+                <div class="card-head flex flex-col gap-6">
+                    <p class="text-2xl font-semibold">Free</p>
+                    <h4 class="text-4xl font-bold">$0</h4>
+                    <p class="text-lg font-medium">Capture ideas and find them quickly</p>
+                </div>
+                <div class="card-content flex flex-col gap-7">
+                    <span class="flex items-center gap-5"><img src="./assests/Icon dark.svg"><p>Sync unlimited devices</p></span>
+                    <span class="flex items-center gap-5"><img src="./assests/Icon dark.svg"><p>10 GB monthly uploads</p></span>
+                    <span class="flex items-center gap-5"><img src="./assests/Icon dark.svg"><p>200 MB max. note size</p></span>
+                    <span class="flex items-center gap-5"><img src="./assests/Icon dark.svg"><p>Customize Home dashboard and access extra widgets</p></span>
+                    <span class="flex items-center gap-5"><img src="./assests/Icon dark.svg"><p>Connect primary Google Calendar account</p></span>
+                    <span class="flex items-center gap-5"><img src="./assests/Icon dark.svg"><p>Add due dates, reminders, and notifications to your tasks</p></span>
+                </div>
+                <div>
+                    <button class="cursor-pointer transition-all duration-300 hover:scale-105 px-10 py-4 border border-[#FFE492] rounded-lg font-medium inline-flex items-center gap-2">Get Started</button>
+                </div>
+            </div>
+
+            <div id="blue-card" class="card-2 py-14 px-11 bg-[#043873] rounded-xl flex flex-col justify-between gap-6 w-[85vw] max-w-[400px] shrink-0 md:shrink md:w-[calc(50%-1rem)] lg:w-[400px] snap-center shadow-lg">
+                <div class="card-head text-white flex flex-col gap-6">
+                    <p class="text-2xl font-semibold">Personal</p>
+                    <h4 class="text-[#FFE492] text-4xl font-bold">$11.99</h4>
+                    <p class="text-lg font-medium">Keep home and family on track</p>
+                </div>
+                <div class="card-content text-white flex flex-col gap-7">
+                    <span class="flex items-center gap-5"><img src="./assests/Icon.svg"><p>Sync unlimited devices</p></span>
+                    <span class="flex items-center gap-5"><img src="./assests/Icon.svg"><p>10 GB monthly uploads</p></span>
+                    <span class="flex items-center gap-5"><img src="./assests/Icon.svg"><p>200 MB max. note size</p></span>
+                    <span class="flex items-center gap-5"><img src="./assests/Icon.svg"><p>Customize Home dashboard and access extra widgets</p></span>
+                    <span class="flex items-center gap-5"><img src="./assests/Icon.svg"><p>Connect primary Google Calendar account</p></span>
+                    <span class="flex items-center gap-5"><img src="./assests/Icon.svg"><p>Add due dates, reminders, and notifications to your tasks</p></span>
+                </div>
+                <div>
+                    <button class="cursor-pointer transition-all duration-300 hover:scale-105 text-white px-10 py-4 bg-[#4F9CF9] rounded-lg font-medium inline-flex items-center gap-2">Get Started</button>
+                </div>
+            </div>
+
+            <div class="card-3 py-10 px-11 bg-[#FFFFFF] text-[#212529] rounded-xl flex flex-col justify-between gap-6 border border-[#FFE492] w-[85vw] max-w-[350px] shrink-0 md:shrink md:w-[calc(50%-1rem)] lg:w-[350px] snap-center">
+                <div class="card-head flex flex-col gap-6">
+                    <p class="text-2xl font-semibold">Organization</p>
+                    <h4 class="text-4xl font-bold">$49.99</h4>
+                    <p class="text-lg font-medium">Capture ideas and find them quickly</p>
+                </div>
+                <div class="card-content flex flex-col gap-7">
+                    <span class="flex items-center gap-5"><img src="./assests/Icon dark.svg"><p>Sync unlimited devices</p></span>
+                    <span class="flex items-center gap-5"><img src="./assests/Icon dark.svg"><p>10 GB monthly uploads</p></span>
+                    <span class="flex items-center gap-5"><img src="./assests/Icon dark.svg"><p>200 MB max. note size</p></span>
+                    <span class="flex items-center gap-5"><img src="./assests/Icon dark.svg"><p>Customize Home dashboard and access extra widgets</p></span>
+                    <span class="flex items-center gap-5"><img src="./assests/Icon dark.svg"><p>Connect primary Google Calendar account</p></span>
+                    <span class="flex items-center gap-5"><img src="./assests/Icon dark.svg"><p>Add due dates, reminders, and notifications to your tasks</p></span>
+                </div>
+                <div>
+                    <button class="cursor-pointer transition-all duration-300 hover:scale-105 px-10 py-4 border border-[#FFE492] rounded-lg font-medium inline-flex items-center gap-2">Get Started</button>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="flex visible md:hidden justify-center gap-2 mt-4">
+            <div class="w-3 h-3 rounded-full bg-blue-900"></div>
+            <div class="w-3 h-3 rounded-full bg-blue-400"></div>
+            <div class="w-3 h-3 rounded-full bg-blue-400"></div>
+        </div>
+</section>
+
+    <!-- __________________________SECTION 6___________________________ -->
+    <section id="your-work"
+        class="bg-[#043873] py-16 md:py-24 px-8 bg-[url('/assests/BACKGROUND2.svg')] bg-no-repeat bg-[position:0%_50%]">
+        <!-- flex-col (mobile) and flex-row (desktop) -->
+        <div class="max-w-7xl mx-auto flex flex-col items-start lg:items-center lg:text-center gap-10">
+
+            <!-- Text Content -->
+            <div class="w-full md:w-3/4 text-white text-left lg:text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight tracking-tight overflow-hidden">Your work,
+                    everywhere
+                    <span class="blue-stroke">you are</span>
+                </h1>
+                <p class="text-lg mb-8 opacity-80 tracking-tight">Access your notes from your computer, phone or tablet
+                    by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is
+                    available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!</p>
+                <button
+                    class="cursor-pointer transition-all duration-300 hover:scale-105 text-white px-10 py-5 bg-[#4F9CF9] rounded-lg font-medium inline-flex items-center gap-2">
+                    Try Taskey <span><img src="./assests/arrow.svg" alt=""></span>
+                </button>
+            </div>
+        </div>
+    </section>
+        <!-- __________________________SECTION 7___________________________ -->
+    <section class="bg-[#ffff] py-32 md:py-24 px-8 gap-24 flex flex-col">
+        <div class="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
+
+            <!-- section 7 content -->
+            <div class="w-full md:w-1/2 text-center md:text-left">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight tracking-tight overflow-hidden">100%
+                    <span class="yellow-stroke">your data</span>
+                </h1>
+                <p class="text-lg mb-8 opacity-80 tracking-tight">With whitepace, share your notes with your
+                    colleagues and collaborate on them You can also publish a note to the internet and share the URL
+                    with others.</p>
+                <button
+                    class="cursor-pointer hover:scale-105 text-white px-10 py-4 bg-[#4F9CF9] rounded-lg font-medium inline-flex items-center gap-2">Try
+                    it
+                    now<span><img src="./assests/arrow.svg" alt=""></span></button>
+            </div>
+            <!-- section  svg -->
+            <div class="w-full max-w-lg md:w-1/2 mx-auto p-4">
+                <img src="./assests/Element2.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+        <!-- __________________________SECTION 8___________________________ -->
+    <section id="sponsors" class="bg-[#ffff] py-10 md:py-20 px-8 gap-24 flex flex-col">
+        <div class="max-w-7xl mx-auto flex flex-col items-center gap-10">
+            <div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight tracking-tight overflow-hidden">Our <span
+                        class="yellow-stroke">sponsors</span></h1>
+            </div>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 w-full">
+                <span><img class="w-10" src="./assests/apple-black.svg"></span>
+                <span><img class="w-40" src="./assests/Microsoft.svg" alt=""></span>
+                <span><img class="w-40" src="./assests/Slack.svg" alt=""></span>
+                <span><img class="w-40" src="./assests/Google.svg" alt=""></span>
+            </div>
+        </div>
+    </section>
+
+        <!-- __________________________SECTION 9___________________________ -->
+    <section id="apps"
+        class="bg-[#043873] py-32 md:py-24 px-8 gap-24 flex flex-col bg-[url('/assests/Blue-bg.svg')] bg-cover bg-no-repeat ">
+        <div class=" max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
+            <!-- section 9 svg -->
+            <div class="w-full max-w-lg md:w-1/2 mx-auto p-4">
+                <img src="./assests/Element-3.svg" alt="">
+            </div>
+            <!-- section 9 content -->
+            <div class="w-full text-white md:w-1/2 text-center md:text-left">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight tracking-tight overflow-hidden">
+                    Work with Your Favorite Apps Using whitepace
+                </h1>
+                <p class="text-lg mb-8 opacity-80 tracking-tight">Whitepace teams up with your favorite software.
+                    Integrate with over 1000+ apps with Zapier to have all the tools you need for your project success.
+                </p>
+                <button
+                    class="cursor-pointer transition-all duration-300 hover:scale-105 text-white px-10 py-4 bg-[#4F9CF9] rounded-lg font-medium inline-flex items-center gap-2">Read
+                    more<span><img src="./assests/arrow.svg" alt=""></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+        <!-- __________________________SECTION 10___________________________ -->
+    <section id="reviews"
+     class=" py-36 md:py-24 px-8">
+        <div class="max-w-7xl mx-auto flex flex-col items-center gap-14">
+
+            <!-- Text Content -->
+            <div class="w-full md:w-1/2 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight tracking-tight overflow-hidden">What Our
+                    Clients
+                    <span class="yellow-stroke">Says</span>
+                </h1>
+            </div>
+            <!--  Image/Box -->
+            <div
+                class="w-full rounded-sm flex gap-8 overflow-scroll scrollbar-none justify-safe-center snap-x snap-mandatory py-10">
+                <div
+                    class="card-1 py-14 px-4 bg-[#FFFFFF] text-[#212529] rounded-xl justify-between flex flex-col gap-6 shadow-[15px_10px_50px_0px_#0000001A] max-w-[370px] m-auto md:shrink shrink-0 snap-center">
+                    <div class="card-head flex flex-col gap-4 pb-10 border-b border-[#212529]">
+                        <img class="w-20" src="./assests/Clients blue.svg" alt="">
+                        <p class="font-normal text-lg leading-7 tracking-tight">Whitepate is designed as a collaboration
+                            tool for businesses that is a full project management solution.</p>
+                    </div>
+                    <div class="name-box flex justify-center items-center gap-10 md:gap-6 lg:gap-10">
+                        <img class="w-1/4" src="./assests/Avater(2).png" alt="">
+                        <div class="flex flex-col gap-3">
+                            <p class="text-2xl font-semibold leading-9">Oberon Shaw, MCH</p>
+                            <p class="text-base font-normal leading-5 tracking-tight">Head of Talent Acquisition, North
+                                America</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card-1 py-14 px-4 bg-[#4F9CF9] text-[#FFFFFF] rounded-xl justify-between flex flex-col gap-6 max-w-[370px] m-auto md:shrink shrink-0 snap-center">
+                    <div class="card-head flex flex-col gap-4 pb-10 border-b border-[#FFFFFF]">
+                        <img class="w-20" src="./assests/Clients white.svg" alt="">
+                        <p class="font-normal text-lg leading-7 tracking-tight">Whitepate is designed as a collaboration
+                            tool for businesses that is a full project management solution.</p>
+                    </div>
+                    <div class="name-box flex justify-center items-center gap-10 md:gap-6 lg:gap-10">
+                        <img class="w-1/4" src="./assests/Avater(1).png" alt="">
+                        <div class="flex flex-col gap-3">
+                            <p class="text-[#043873] text-2xl font-semibold leading-9">Oberon Shaw, MCH</p>
+                            <p class="text-base font-normal leading-5 tracking-tight">Head of Talent Acquisition, North
+                                America</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="card-1 py-14 px-4 bg-[#4F9CF9] text-[#FFFFFF] rounded-xl justify-between flex flex-col gap-6 max-w-[370px] m-auto md:shrink shrink-0 snap-center">
+                    <div class="card-head flex flex-col gap-4 pb-10 border-b border-[#FFFFFF]">
+                        <img class="w-20" src="./assests/Clients white.svg" alt="">
+                        <p class="font-normal text-lg leading-7 tracking-tight">Whitepate is designed as a collaboration
+                            tool for businesses that is a full project management solution.</p>
+                    </div>
+                    <div class="name-box flex justify-center items-center gap-10 md:gap-6 lg:gap-10">
+                        <img class="w-1/4" src="./assests/Avater.png" alt="">
+                        <div class="flex flex-col gap-3">
+                            <p class="text-[#043873] text-2xl font-semibold leading-9">Oberon Shaw, MCH</p>
+                            <p class="text-base font-normal leading-5 tracking-tight">Head of Talent Acquisition, North
+                                America</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex visible sm:hidden justify-center gap-2 mt-4">
+                <div class="w-3 h-3 rounded-full bg-blue-900"></div>
+                <div class="w-3 h-3 rounded-full bg-blue-400"></div>
+                <div class="w-3 h-3 rounded-full bg-blue-400"></div>
+            </div>
+    </section>
+
+        <!-- __________________________SECTION 11___________________________ -->
+    <section class="max-w7xl m-auto pt-32 px-8 pb-8 bg-[#043873]">
+        <div class="md:w-2xl m-auto text-white flex flex-col items-start md:justify-center md:items-center gap-10">
+            <div class="flex flex-col md:justify-center md:items-center gap-6 md:text-center">
+                <p class="md:text-7xl text-4xl font-bold">Try Whitepace today</p>
+                <p class="md:text-2xl sm:text-xl text-lg font-normal leading-8 tracking-tight">Get started for free. Add
+                    your whole team as your needs grow.</p>
+            </div>
+            <button
+                class="cursor-pointer transition-all duration-300 hover:scale-105 text-white px-10 py-4 bg-[#4F9CF9] rounded-lg font-medium inline-flex items-center gap-2">Try Taskey free<span><img src="./assests/arrow.svg" alt=""></span>
+            </button>
+            <p class="md:text-2xl text-lg font-normal leading-8 tracking-tight">On a big team? Contact sales</p>
+            <div class=" flex justify-center items-center gap-10">
+                <img class="md:w-14 w-8 " src="./assests/apple-white.svg" alt="">
+                <img class="md:w-14 w-8 " src="./assests/windows-logo 1.svg" alt="">
+                <img class="md:w-14 w-8 " src="./assests/android-logo 1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+        <!-- __________________________SECTION 11___________________________ -->
+    <section id="footer"
+     class="max-w7xl m-auto pt-32 px-8 pb-8 bg-[#043873]">
+        <div class="gap-24 max-w-6xl m-auto text-white flex flex-col text-center sm:text-start ">
+            <div class="flex flex-col md:flex-row lg:gap-24 gap-10">
+                <div class="flex flex-col gap-4 text-center sm:text-start">
+                    <div>
+                        <img class="inline-block w-40 md:w-48 h-auto" src="./assests/Logo.svg" alt="Logo">
+                    </div>
+
+                    <p class="text-lg font-normal leading-7 opacity-80">
+                        whitepace was created for the new ways we live and work. We make a better workspace around the
+                        world
+                    </p>
+                </div>
+                <div class="flex flex-col gap-4 ">
+                    <p class="text-lg font-bold leading-none tracking-tight">Product</p>
+                    <p class="cursor-pointer hover:underline hover:text-[#FFE492] text-base font-normal tracking-tight leading-5">Overview</p>
+                    <p class="cursor-pointer hover:underline hover:text-[#FFE492] text-base font-normal tracking-tight leading-5">Pricing</p>
+                    <p class="cursor-pointer hover:underline hover:text-[#FFE492] text-base font-normal tracking-tight leading-5">Customer stories</p>
+                </div>
+                <div class="flex flex-col gap-4 ">
+                    <p class="text-lg font-bold leading-none tracking-tight">Resources</p>
+                    <p class="cursor-pointer hover:underline hover:text-[#FFE492] text-base font-normal tracking-tight leading-5">Blog</p>
+                    <p class="cursor-pointer hover:underline hover:text-[#FFE492] text-base font-normal tracking-tight leading-5">Guides & tutorials</p>
+                    <p class="cursor-pointer hover:underline hover:text-[#FFE492] text-base font-normal tracking-tight leading-5">Help center</p>
+                </div>
+                <div class="flex flex-col gap-4 ">
+                    <p class="text-lg font-bold leading-none tracking-tight">Company</p>
+                    <p class="cursor-pointer hover:underline hover:text-[#FFE492] text-base font-normal tracking-tight leading-5">About us</p>
+                    <p class="cursor-pointer hover:underline hover:text-[#FFE492] text-base font-normal tracking-tight leading-5">Careers</p>
+                    <p class="cursor-pointer hover:underline hover:text-[#FFE492] text-base font-normal tracking-tight leading-5">Media kit</p>
+                </div>
+                <div class="text-white  ">
+                    <h1 class="text-3xl md:text-3xl font-bold mb-6 leading-tight tracking-tight overflow-hidden">Try It
+                        Today</h1>
+                    <p class="text-lg mb-8 opacity-80 tracking-tight">Get started for free. Add your whole team as your
+                        needs grow.</p>
+                    <button
+                        class="cursor-pointer hover:hover:scale-105 text-white px-6 py-4 bg-[#4F9CF9] rounded-lg lg:text-lg text-sm font-medium inline-flex items-center gap-2 transition-all duration-300">Start Today <span><img src="./assests/arrow.svg" alt=""></span>
+                    </button>
+                </div>
+            </div>
+            <div
+                class="w-full flex flex-col gap-5 lg:flex-row justify-between items-center sm:items-start lg:border-t border-[#2E4E73] lg:pt-8 mt-12 lg:mt-0">
+
+                <div
+                    class="flex text-white flex-col sm:flex-row gap-6 md:gap-10 text-sm opacity-90 md:opacity-80 w-full md:w-auto pb-5 border-b border-[#2E4E73] lg:border-none lg:pb-0">
+                    <span class="flex justify-center items-center gap-1">
+                        <span class="inline-block" ><img class="w-4 font-bold inline-block" src="./assests/language.svg" alt=""></span>
+                        <span><select class="outline-none cursor-pointer" name="English" id="">
+                            <option class="text-black" value="English">English</option>
+                            <option class="text-black" value="Urdu">Urdu</option>
+                            <option class="text-black" value="France">France</option>
+                            <option class="text-black" value="Hindi">Hindi</option>
+                            <option class="text-black" value="Arabic">Arabic</option>
+                        </select></span>
+                    </span>
+                    <a href="#" class="cursor-pointer hover:underline hover:text-white transition-all">Terms & privacy</a>
+                    <a href="#" class="cursor-pointer hover:underline hover:text-white transition-all">Security</a>
+                    <a href="#" class="cursor-pointer hover:underline hover:text-white transition-all">Status</a>
+                    <span>&copy; 2021 Whitepace LLC.</span>
+                </div>
+                <div class="flex gap-6">
+                    <a href="#" class="hover:text-white opacity-80 hover:opacity-100 font-bold transition-all"><img
+                            src="./assests/fb.svg" alt=""></a>
+                    <a href="#" class="hover:text-white opacity-80 hover:opacity-100 font-bold transition-all"><img
+                            src="./assests/Linkedin.svg" alt=""></a>
+                    <a href="#" class="hover:text-white opacity-80 hover:opacity-100 font-bold transition-all"><img
+                            src="./assests/twitter.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
